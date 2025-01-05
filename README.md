@@ -1,10 +1,10 @@
 
 ### Resources
-- Building a Web Server in C++ [VS 2017] Part 1 (video)  
+- Building a Web Server in C++ [VS 2017] Part 1 (video)
   Link: [https://www.youtube.com/watch?v=Kc1kwm1WyV](https://www.youtube.com/watch?v=Kc1kwm1WyV)
-- GitHub Markdown Documentation  
+- GitHub Markdown Documentation
   Link: [https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
-- Quarto Markdown Basics  
+- Quarto Markdown Basics
   Link: [https://quarto.org/docs/authoring/markdown-basics.html](https://quarto.org/docs/authoring/markdown-basics.html)
 
 
@@ -37,3 +37,27 @@ Please read the RFC and do some tests with telnet and NGINX before
 starting this project.
 Even if you don’t have to implement all the RFC, reading it will help
 you develop the required features.
+
+
+TCP - Transmission Control Protocol
+IP - Internet protocol
+
+TCP/IP model - a practical framework used to describe how data is transmitted across networks including the internet. It simplifies the communication process into four layers, each with specific responsibilities.
+
+<img src="./img/TCP_IP_model.png" width="500px">
+
+
+A simple HTTP server from scratch:
+https://trungams.github.io/2020-08-23-a-simple-http-server-from-scratch/
+
+Hypertext Transfer Protocol -- HTTP/1.1:
+https://datatracker.ietf.org/doc/html/rfc2616
+
+Beej's Guide to Network Programming:
+https://beej.us/guide/bgnet/html/#what-is-a-socket
+
+
+---------
+
+
+curl -v http://127.0.0.1:8080/
