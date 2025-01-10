@@ -63,5 +63,8 @@ https://medium.com/from-the-scratch/http-server-what-do-you-need-to-know-to-buil
 man socket
 ---------
 
+CGI
+https://www.garshol.priv.no/download/text/http-tut.html
+
 
 curl -v http://127.0.0.1:8080/
